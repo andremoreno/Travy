@@ -1,0 +1,26 @@
+---
+enable: true
+topTitle: Working Area
+title: >
+  ## Our Services
+
+  To become one of the most trusted, easiest, and affordable travel agents for all people,
+  we try to provide the best service to customers and make it easier to travel or business.
+
+
+service:
+  - content: >
+      Providing Airline Ticket Purchase Services for All Domestic And International Flights.
+  - content: >
+     Management of Overseas Visas, Umrah and Hajj Furoda Visas
+
+  - content: >
+      Visa and KITAS for foreign nationals who want to visit or stay in Indonesia
+  - content: >
+     PMA Making
+  - content: >
+     Goods Management Services or Export and Import Expeditions
+  - content: >
+     Validation and Legality of International Documents.
+
+

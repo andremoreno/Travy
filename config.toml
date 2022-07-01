@@ -1,0 +1,53 @@
+baseURL = "https://travy.id"
+languageCode = "en-us"
+paginate = 6
+title = "Travy"
+disableHugoGeneratorInject = true
+#assetDir = "static"
+
+# Main Menu
+[[menu.main]]
+name = "Home"
+url = "#home"
+weight = 1
+[[menu.main]]
+name = "About"
+url = "#about"
+weight = 2
+[[menu.main]]
+name = "Service"
+url = "#service"
+weight = 3
+[[menu.main]]
+name = "Visa Info"
+url = "#visainfo"
+weight = 4
+[[menu.main]]
+name = "Business Setup"
+url = "#business"
+weight = 5
+[[menu.main]]
+name = "Travel Plan"
+url = "#travelplan"
+weight = 6
+
+
+[params]
+blogPageURL = "travel-plans"
+contactLink = "contact"
+copyright = "Copyright &copy; 2022 Travy · All Rights Reserved"
+copyright2 = "Developed By [AndreMoreno](https://andremoreno.com)"
+footerLogo = "images/contact/widget-logo.png"
+formspreeURL = "https://formspree.io/f/xvolyooo"
+googleAnalytics = ""
+logo = "images/logo.png"
+description = 'Travy is One-Stop Solutions to your needs for Company Establishment, Legal Services, Visas, Work Permit, Accounting and Tax Reporting Services in Indonesia.'
+images = ['https://travy.id/images/travyog.jpg']
+title = "Travy"
+
+
+[params.address]
+address = "WISMA NH, Jl. Raya Pasar Minggu No.2B-C, Jakarta"
+email = "jakartaexpat34@gmail.com"
+openingHours = "Open from 10am to 5pm"
+phone = "+(62) 811 828 5030"

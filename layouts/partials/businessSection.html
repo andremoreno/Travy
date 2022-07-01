@@ -1,0 +1,33 @@
+{{ with .Site.Data.businessSection }}
+{{ if .enable }}
+<section class="section business" id="business">
+    <div class="business__background_shape">
+        <svg viewBox="0 0 1920 79">
+            <path d="M0 0h1920v79L0 0z" data-name="Path 1450" />
+        </svg>
+    </div>
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-lg-6 offset-lg-3">
+                <div class="business__header">
+                    <span class="top-title">{{ .topTitle }}</span>
+                    {{ .title | markdownify }}
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="business__slider">
+                    {{ $section := .business }}
+                    {{ range $section }}
+                    <div class="business__slider_item">
+                        <p class="business__slider_item-content">{{ .content | markdownify }}</p>
+                     </div>
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }}
+{{ end }}

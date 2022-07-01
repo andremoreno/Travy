@@ -1,0 +1,58 @@
+---
+enable: true
+
+topTitle: About Us
+
+Summary: Travy is a company engaged in art impresario and tourism consulting.
+
+title: >
+  ## About Travy
+
+  
+summary: >
+  ### We engaged in art impresario and tourism consulting.
+
+  PT. Lombok Expat Service has been established since 2020 by serving various visa consultations, vacation and travel plan
+  or business legalization for expats who want to settle and open a business in Indonesia.
+
+button1Name: Consult Now
+button2Name: Travel Plans
+button1Target: contact
+button2Target: travel-plans
+
+image: images/travy-about-img.jpg
+image2: images/travy-about-img.jpg
+
+
+
+content: >
+  PT. Lombok Expat Service is a company engaged in art impresario and tourism consulting.
+  Our company has been established since 2020 by serving various visa consultations, vacation travel or business legalization for expats who want to settle and open a business in Indonesia.\
+
+  We have an office located at Wisma NH, South Jakarta.
+
+  _________________
+
+  ### Our Vision
+
+  To become one of the most trusted, easiest, and affordable travel agents for all people.
+
+  ### Our Mission
+
+  Providing the best service to customers and convenience in traveling or business.
+
+content2: >
+ 
+  ### Our Service
+
+  - Providing Airline Ticket Purchase Services for All Domestic And International Flights
+
+  - Management of Overseas Visas, Umrah and Hajj Furoda Visas
+
+  - Visa and KITAS for foreign nationals who want to visit or stay in Indonesia
+
+  - PMA Making
+
+  - Goods Management Services or Export and Import Expeditions
+
+  - Validation and Legality of International Documents.

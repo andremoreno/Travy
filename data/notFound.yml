@@ -1,0 +1,11 @@
+---
+enable: true
+topTitle: "404: Page Not Found"
+
+content: >
+  
+  ### We're fairly sure that page used to be here, but seems to have gone missing. We do apologise on it's behalf.
+
+buttonName: Home
+buttonURL: /
+image: images/travy-404-img.jpg

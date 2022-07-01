@@ -1,0 +1,49 @@
+{{ with .Site.Data.travelSection }}
+{{ if .enable }}
+<section class="section travel-preview" id="travelplan">
+	<div class="travel-preview__shape">
+		<img src="/images/svg/travel-shape.svg" alt="travel shape" loading="lazy" />
+	</div>
+	<div class="container">
+		<div class="row mb-5">
+			<div class="col-lg-6">
+				<div class="travel-preview__header">
+					<span class="top-title pre-line">{{ .topTitle }}</span>
+					{{ .title | markdownify }}
+				</div>
+			</div>
+			<div class="col-lg-6">
+				<div class="travel-preview__header_button desktop">
+					<a class="btn btn-outline-secondary  btn-zoom m-3" href="{{ .buttonTarget | absURL }}">More Plans</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			{{ range first 3 (where $.Site.RegularPages "Type" "!=" "portfolio") }}
+			<div class="col-lg-4">
+				<div class="travel-preview__item">
+					<div class="travel-preview__item-thumb">
+						<img src="/{{ .Params.featureImage }}" alt="post-image" loading="lazy">
+					</div>
+					<div class="travel-preview__item-content bg-white">
+						<span class="small">{{ .Params.Destination }}</span>
+						<h5 class="mb-0">
+							<a class="text-dark" href="{{ .Permalink }}">{{ .Title }}</a>
+						</h5>
+					</div>
+				</div>
+			</div>
+			{{ end }}
+
+		</div>
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="travel-preview__header_button mobile">
+					<a class="btn btn-outline-secondary btn-zoom" href="{{ .buttonTarget | absURL }}">More Plans</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+{{ end }} {{ end }}

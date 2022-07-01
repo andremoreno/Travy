@@ -1,0 +1,35 @@
+{{ with .Site.Data.serviceSection }}
+{{ if .enable }}
+<section class="section service" id="service">
+    <div class="service__background"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="service__heading">
+                    <div class="text-light">
+                        <span class="top-title pre-line">{{ .topTitle }}</span>
+                        {{ .title | markdownify }}
+                    </div>
+
+                    
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="tab-content ">
+                    <div class="service__area tab-pane active" id="{{.tab1Target}}">
+                        {{ $Section := .service }}
+                        {{ range $Section }}
+                        <div class="service__area_item">
+                            {{ .content | markdownify }}
+                        </div>
+                        {{ end }}
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }}
+{{ end }}

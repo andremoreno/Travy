@@ -1,0 +1,59 @@
+/*!------------------------------------------------------------------
+[MAIN STYLESHEET]
+
+PROJECT:	Portio HTML
+VERSION:	1.0.0
+-------------------------------------------------------------------*/
+@import "variables";
+
+@import "../bootstrap-4.6.1/scss/bootstrap";
+
+@import "typography";
+
+@import "mixins";
+
+@import "buttons";
+
+@import "common";
+
+@import "components/navbar";
+
+@import "components/hero-section";
+
+@import "components/about-section";
+
+@import "components/visainfo-section";
+
+@import "components/portfolio-section";
+
+@import "components/service-section";
+
+@import "components/why-section";
+
+@import "components/business-section";
+
+@import "components/travel-section";
+
+@import "components/footer-section";
+
+@import "components/travel";
+
+@import "components/single-travel-post";
+
+@import "components/page-title";
+
+@import "components/contact";
+
+input.form-control,textarea.form-control,select.form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    
+    opacity: .5; /* Firefox */
+}
+
+input.form-control,textarea.form-control,select.form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   
+    opacity: .5;
+}
+input.form-control,textarea.form-control,select.form-control::-ms-input-placeholder { /* Microsoft Edge */
+    
+    opacity: .5;
+}

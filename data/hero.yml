@@ -1,0 +1,14 @@
+---
+enable: true
+topTitle: Welcome To Travy
+content: >
+  # We do our best helping expats and tourists in Indonesia.
+  
+  We offers a wide range of services required by our individual
+  and corporate clients to run a successful business in Indonesia.
+
+  
+buttonName: Contact Us
+buttonURL: contact
+image: images/travy-hero-img.jpg
+

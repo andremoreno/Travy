@@ -1,0 +1,47 @@
+---
+enable: true
+topTitle: Visa Info
+title: >
+  ## Our immigration services
+
+  Trusted by foreign travelers and international business owners, 
+  Travy can provide you with a seamless experience in obtaining your stay and work permit in Indonesia.
+visainfo:
+  - content: >
+      #### Work visa & permit 
+
+      Suitable for professionals who want to work in Indonesia,
+      or local businesses wanting to hire foreign staff.
+    image: images/svg/ui-ux.svg
+
+  - content: >
+      #### Business Visa 
+
+      Suitable for foreigners who wish to visit Indonesia on a
+      business trip (cannot earn any income in the country with this visa).
+    image: images/svg/web.svg
+
+  - content: >
+      #### Investor Visa 
+
+      Suitable for entrepreneurs and investors who want to
+      live and manage their investments in Indonesia.
+    image: images/svg/creative.svg
+
+
+  - content: >
+      #### Dependant visa
+
+      Suitable for immediate family members who want
+      to relocate to Indonesia together with their spouse.
+    image: images/svg/branding.svg
+
+
+  - content: >
+      #### Permanent residency
+
+      Suitable for professionals or entrepreneurs who would like 
+      to make Indonesia their new country of residence.
+    image: images/svg/ui-ux.svg
+
+
